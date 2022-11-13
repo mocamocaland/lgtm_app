@@ -29,7 +29,7 @@ workflows:
   all:
     jobs:
       - setup_dependencies
-        - test:
-          requires:
-            -setup_dependencies
+      - test:
+        requires:
+          -setup_dependencies
 
