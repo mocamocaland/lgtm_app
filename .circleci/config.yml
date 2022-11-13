@@ -29,6 +29,6 @@ workflows:
   all:
     jobs:
       - setup_dependencies
-      - test:
+      - test: null
         requires:
           - setup_dependencies
