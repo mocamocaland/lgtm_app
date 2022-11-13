@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   setup_dependencies:
     docker:
-      - image: cimg/python3.10.8
+      - image: cimg/python:3.10.8
     steps:
       - checkout
       - restore_cache:
@@ -16,7 +16,7 @@ jobs:
             - "~/.local"
   test:
     docker:
-      - image: cimg/python3.10.8
+      - image: cimg/python:3.10.8
     steps:
       - checkout
       - restore_cache:
