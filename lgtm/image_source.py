@@ -37,7 +37,7 @@ KeywordImage = _LoremFlickr
 
 
 def ImageSource(keyword):
-    if keyword.startswith('http://', 'https://'):
+    if keyword.startswith(('http://', 'https://')):
         return RemoteImage(keyword)
     elif Path(keyword).exists():
         return LocalImage(keyword)

@@ -19,7 +19,8 @@ def save_with_message(fp, message):
     message_area_width = image_width * MAX_RATIO
     message_area_height = image_height * MAX_RATIO
 
-    for font_size in range(FONT_MIN_SIZE, FONT_MIN_SIZE, -1):
+    for font_size in range(FONT_MAX_SIZE, FONT_MIN_SIZE,
+                           -1):
         font = ImageFont.truetype(FONT_NAME, font_size)
 
         text_width, text_height = draw.textsize(
@@ -33,4 +34,5 @@ def save_with_message(fp, message):
             draw.text(position, message,
                       fill=FONT_COLOR_WHITE, font=font)
             break
+
     image.save(OUTPUT_NAME, OUTPUT_FORMAT)
