@@ -4,7 +4,7 @@ MAX_RATIO = 0.8
 FONT_MAX_SIZE = 256
 FONT_MIN_SIZE = 24
 
-FONT_NAME = '/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc'
+FONT_NAME = '/Users/cn/Library/Fonts/Arial Unicode.ttf'
 FONT_COLOR_WHITE = (255, 255, 255, 0)
 
 OUTPUT_NAME = 'output.png'
