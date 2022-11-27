@@ -4,9 +4,9 @@ MAX_RATIO = 0.8
 FONT_MAX_SIZE = 256
 FONT_MIN_SIZE = 24
 
-# FONT_NAME = '/Library/Fonts/Arial Unicode.ttf'
+FONT_NAME = '/Library/Fonts/Arial Unicode.ttf'
 # FONT_NAME = '/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc'
-FONT_NAME = 'lgtm/arial.ttf'
+# FONT_NAME = 'lgtm/arial.ttf'
 FONT_COLOR_WHITE = (255, 255, 255, 0)
 
 
