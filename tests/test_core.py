@@ -6,9 +6,6 @@
 #         from lgtm.core import lgtm
 #         self.assertIsNone(lgtm('./python.jpeg', 'LGTM'))  # add assertion here
 
-import pytest
-
-
 def test_lgtm():
     from lgtm.core import lgtm
     assert (lgtm('./python.jpeg', 'LGTM')) is None  # add assertion here
