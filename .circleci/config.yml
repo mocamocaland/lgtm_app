@@ -23,8 +23,8 @@ jobs:
           key: deps-{{ checksum "requirements.lock" }}
       - run:
           command: |
-#            pytest
             python3 -m unittest -v
+#            pytest
 workflows:
   version: 2
   all:
